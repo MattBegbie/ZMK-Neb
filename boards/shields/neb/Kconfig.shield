@@ -1,0 +1,5 @@
+config SHIELD_NEB_LEFT
+    def_bool $(shields_list_contains,neb_left)
+
+config SHIELD_NEB_RIGHT
+    def_bool $(shields_list_contains,neb_right)
