@@ -12,13 +12,12 @@
 
         default_layer {
             bindings = <
-                &kp N9  &kp N8  &kp N7  &bootloader
-                &kp N0   &kp N1   &kp N2   &kp N3  &kp N4
-                &kp RET &kp Q   &kp W   &kp E  &kp R
-                &kp COLON   &kp A   &kp S   &kp D  &kp F
-                &kp Z   &kp X   &kp C   &kp V  &kp B
-                &kp N1   &kp SPACE
-                &kp RET 
+                            &kp N9      &kp N8      &kp N7      &bootloader
+                &kp N0      &kp N1      &kp N2      &kp N3      &kp N4
+                &kp RET     &kp Q       &kp W       &kp E       &kp R
+                &kp COLON   &kp A       &kp S       &kp D       &kp F
+                &kp Z       &kp X       &kp C       &kp V       &kp B
+                                        &kp N1      &kp SPACE   &kp RET
             >;
         };
     };
